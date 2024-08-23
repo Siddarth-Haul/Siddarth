@@ -46,10 +46,10 @@ print("Product of prime numbers up to", n, ":", multiply_primes_up_to_n(n))
 
 import math
 
-x = float(input("Enter x coordinate: "))
-
 def distance_from_origin(x, y, z):
     return math.sqrt(x**2 + y**2 + z**2)
+
+x = float(input("Enter x coordinate: "))
 y = float(input("Enter y coordinate: "))
 z = float(input("Enter z coordinate: "))
 
